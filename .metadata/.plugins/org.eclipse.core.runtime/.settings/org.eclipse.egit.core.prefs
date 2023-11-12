@@ -1,3 +1,6 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=D\:\\WorkSpaces\\ws-eclipse-treinamento\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
+RepositorySearchDialogSearchPath=D\:\\WorkSpaces
+core_defaultRepositoryDir=D\:\\WorkSpaces
+core_ssh_default_agent=\\\\.\\pageant
 eclipse.preferences.version=1
