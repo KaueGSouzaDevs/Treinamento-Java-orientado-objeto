@@ -5,12 +5,13 @@ public class ContaBancaria {
 	String agencia;
 	int numeroConta;
 	double saldo;
+	Cliente titular;
 
 	
 	void transferir(ContaBancaria contaDestino, double valor) {
 		
 		if(saldo<valor) {
-			System.out.println("Saldo insuficiente.");
+			System.out.println("\nSaldo insuficiente.");
 		} else {
 			saldo = saldo-valor;
 			contaDestino.saldo = contaDestino.saldo+valor;
