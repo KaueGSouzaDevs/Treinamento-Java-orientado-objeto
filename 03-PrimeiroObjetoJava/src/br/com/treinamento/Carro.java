@@ -22,9 +22,9 @@ public class Carro {
 		System.out.println("Som da buzina: " +buzina);
 	}
 	
-	void mostrarIdade(int idade) {
+	void mostrarIdade() {
 		
-		System.out.println("O carro tem "+ (2023-ano));
+		System.out.println("O carro tem "+ (2023-ano)+ " anos");
 		
 		
 	}
