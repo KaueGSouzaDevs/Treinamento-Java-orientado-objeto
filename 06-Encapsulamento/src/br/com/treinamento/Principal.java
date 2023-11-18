@@ -17,7 +17,7 @@ public class Principal {
 		// ********************************************\\
 
 		Cliente cliente2 = new Cliente();
-		cliente2.nome = "Givaldo Fernandes";
+		cliente2.setNome("Givaldo Fernandes");
 		cliente2.cfp = "987654321";
 
 		ContaBancaria conta2 = new ContaBancaria();
