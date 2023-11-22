@@ -18,7 +18,7 @@ public class Cliente {
 			return cpf;
 		}
 		public void setCpf(String cpf) {
-			this.cpf = cpf;
+			this.cpf = cpf.replaceAll("\\.", "").replaceAll("-", "");
 		}
 		
 		
@@ -29,5 +29,5 @@ public class Cliente {
 			this.senha = senha;
 		}
 			
-		
+
 }
