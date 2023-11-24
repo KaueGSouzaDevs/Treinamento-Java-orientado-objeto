@@ -7,7 +7,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		Integer area = Calculos.calculaAreaQuadrado(35, 15);
+		Integer area = Calculos.somarDoisNumeros(35, 15);
 		
 		System.out.println(area);
 		
