@@ -22,8 +22,4 @@ public class Gerente extends Funcionario{
 		System.out.println("metodo sobrescrita");
 	}
 	
-	
-	
-	
-
 }
