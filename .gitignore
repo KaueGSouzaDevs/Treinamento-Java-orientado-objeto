@@ -1,12 +1,12 @@
 /.metadata/
 HELP.md
 target/
-!**/target/
-!**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
-
+.classpath
 .factorypath
 .settings
 .springBeans
