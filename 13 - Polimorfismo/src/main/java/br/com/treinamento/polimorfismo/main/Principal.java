@@ -10,7 +10,7 @@ public class Principal {
 	
 	public static void main(String[] args) {
 		
-		Gerente gerente = new Gerente();
+		Funcionario gerente = new Gerente();
 		gerente.setNome("Kaue");
 		gerente.setSalario(17000.00);
 		
@@ -18,11 +18,11 @@ public class Principal {
 		funcionario.setNome("Pedro");
 		funcionario.setSalario(500.00);
 		
-		Designer designer = new Designer();
+		Funcionario designer = new Designer();
 		designer.setNome("Rodolfo");
 		designer.setSalario(7000.00);
 		
-		EditorVideo editorVideo = new EditorVideo();
+		Funcionario editorVideo = new EditorVideo();
 		editorVideo.setNome("Lucas");
 		editorVideo.setSalario(6000.00);
 		
