@@ -1,13 +1,12 @@
 package br.com.treinamento.polimorfismo.model;
 
 import lombok.Getter;
-import lombok.Setter;
 
 public class Gerente extends Funcionario{
 	
 	//ATRIBUTOS
-	@Getter @Setter
-	private Integer senha;
+	@Getter
+	private Integer senha = 123;
 	
 	@Override
 	public Double getBonificacao() {
