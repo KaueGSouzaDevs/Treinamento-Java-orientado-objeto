@@ -2,11 +2,15 @@ package br.com.treinamento.debug;
 
 public class Main {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 
 		System.out.println("Inicio do método main.");
 		
-		metodo1(5);
+		try {
+			metodo1(2);
+		} catch (Exception e) {
+			System.err.println("Erro ao executar o método 1.\nMotivo: "+e.getLocalizedMessage());
+		}
 		
 		System.out.println("Fim do método main.");
 
