@@ -1,4 +1,4 @@
-# WS Eclipse Treinamento
+# Treinamento Java orientado a objetos
 
 Este repositório é dedicado aos estudos e treinamentos relacionados ao desenvolvimento em **Java**, com foco em boas práticas e aprimoramento técnico.
 
